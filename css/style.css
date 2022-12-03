@@ -1,0 +1,95 @@
+*{
+    background: rgb(0, 2, 14);
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+   
+}
+
+.navbar{
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(191, 196, 201);
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 5rem 2rem 2rem;
+ 
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 6rem;
+    margin-left: 2rem;
+ 
+}
+
+.content-text{
+    color: rgb(191, 196, 201);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.img{
+    max-width: 20rem;
+    border-radius: 10rem;
+    margin: 2rem;
+}
+
+.typewriter {
+    font-family: 'Special Elite', cursive;
+    width: 100%;  
+  }
+
+  h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+    font-weight: normal;
+
+  }
+
+  h1:after{
+   content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 2px;
+    height: 25px;
+    width: 4px;
+    animation: cursor 0.4s infinite;
+  }
+
+@keyframes cursor {
+    0% { opacity: 1; }
+      49% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 0; }
+  }
+
+  /*Projeto*/
+  .content-projeto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .contente-projeto-iten{
+    color: antiquewhite;  
+    padding: 5rem 3rem 2rem;
+    text-decoration: none;    
+  }
+
+  .img-iten{
+    max-width: 13rem;
+  }
+
+.text-iten{
+  font-family: 'Roboto', sans-serif;  
+  color: antiquewhite;
+}
