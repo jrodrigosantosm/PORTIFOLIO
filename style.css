@@ -6,13 +6,12 @@
 .header{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 2rem;
-   
-}
+    align-items: center; 
+    width: 100%;   
+ }
 
 .navbar{
-    padding: 3rem;
+   
     font-family: 'Roboto', sans-serif;
     color: rgb(191, 196, 201);
     text-decoration: none;
@@ -99,5 +98,127 @@
   color: antiquewhite;
   font-family: 'Roboto', sans-serif; 
   margin: 4rem;
+}
+
+@media (max-width: 1100px) {
+  .content-projeto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .contente-projeto-iten{
+    color: antiquewhite;  
+    padding: 5rem 3rem 2rem;
+    text-decoration: none;    
+  }
+
+  .img-iten{
+    max-width: 10rem;
+  }
+
+  .text-iten{
+  font-family: 'Roboto', sans-serif;  
+  color: antiquewhite;
   
+  }
+}
+
+@media (max-width: 768px){
+  .navbar{   
+    font-family: 'Roboto', sans-serif;
+    color: rgb(191, 196, 201);
+    text-decoration: none;  
+}
+
+  .text-iten{
+    font-size: 80%;
+  }
+
+  h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 2rem;
+  overflow: hidden;
+  margin: 0 auto;
+  display: inline-block;
+  font-weight: normal;
+  }
+
+  .img{
+  max-width: 10rem;
+  border-radius: 10rem;
+  margin: 2rem;
+  }
+}
+
+@media (max-width: 668px){
+  .navbar{   
+    font-family: 'Roboto', sans-serif;
+    color: rgb(191, 196, 201);
+    text-decoration: none;
+    font-size: 90%;
+    margin: 5rem 1rem 1rem;
+  }
+
+  .text-iten{
+  font-size: 18px;
+  align-items: center;
+  margin: 0 auto;
+  }
+  .img{
+  max-width: 7rem;
+  border-radius: 10rem;
+  margin: 1rem;
+  }
+  h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 1rem;
+  overflow: hidden;
+  margin: 0 auto;
+  display: inline-block;
+  font-weight: normal;
+  }
+  .text-home{
+  font-size: 75%;
+  }
+  .content-projeto{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+  .contente-projeto-iten{
+  color: antiquewhite;  
+  padding: 2rem 1rem 1rem;
+  text-decoration: none;
+  }
+  .img-iten{
+  max-width: 70%;
+  }
+  .text-iten{
+  font-size: 60%;
+  }
+}
+
+@media (max-width:361px) {
+  .navbar{
+    font-size: 11px;
+  }
+  .content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 6rem;
+    margin-left: auto;
+  }
+  .content-projeto{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+  .contente-projeto-iten{
+  color: antiquewhite;  
+  padding: 2rem 1rem 1rem;
+  text-decoration: none;
+  }
+  .img-iten{
+  max-width: 70%;
+  }
+  .text-iten{
+  font-size: 60%;
+  }
 }
