@@ -13,5 +13,12 @@ var i = 0;
       }
     
     }
+
+    function clicargitform(){         
+      window.open("https://github.com/jrodrigosantosm/formulario-emprego-na-hora-bolsa");
+    }
+
+    function clicarpageform(){         
+      window.open("https://jrodrigosantosm.github.io/formulario-emprego-na-hora-bolsa/");
+      }
     
-typeWriter();

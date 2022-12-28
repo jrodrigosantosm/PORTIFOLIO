@@ -7,7 +7,9 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 100%;   
+    width: 100%; 
+    margin: 30px auto;
+      
  }
 
 .navbar{
@@ -16,7 +18,7 @@
     color: rgb(191, 196, 201);
     text-decoration: none;
     font-size: 1.2rem;
-    margin: 5rem 2rem 2rem;
+    margin: 10rem 2rem 2rem;
  
 }
 
@@ -31,6 +33,7 @@
 .content-text{
     color: rgb(191, 196, 201);
     font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
 
 }
 
@@ -91,6 +94,16 @@
 .text-iten{
   font-family: 'Roboto', sans-serif;  
   color: antiquewhite;
+}
+
+.btnportifolio{
+  border: solid 2px white ;
+  color: white;
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 7px 15px;
+  margin-right: 15px;
+  cursor: pointer;
 }
 
 /*Contato*/
