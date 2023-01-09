@@ -21,4 +21,12 @@ var i = 0;
     function clicarpageform(){         
       window.open("https://jrodrigosantosm.github.io/formulario-emprego-na-hora-bolsa/");
       }
+
+      function clicargitcalc(){         
+        window.open("https://github.com/jrodrigosantosm/Calculadora-js");
+      }
+  
+      function clicarpagecalc(){         
+        window.open("https://jrodrigosantosm.github.io/Calculadora-js/");
+        }
     
